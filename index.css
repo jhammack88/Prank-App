@@ -57,7 +57,6 @@ h4 {
 }
 
 #customize-btn {
-  margin-top: 25px;
   font-size: 24px;
   margin: 0px 12px;
   border-radius: 10%;
@@ -200,7 +199,7 @@ h1 {
 }
 
 .btn-response .prankContent {
-  margin-top: 20px;
+  margin-top: 40px;
   justify-content: center;
 }
 
@@ -215,6 +214,17 @@ h1 {
   border: 2px solid goldenrod;
 }
 
+.btn-response-two .prankContent {
+  color: #fffdf8;
+  font-size: 18px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 50px;
+  background-color: teal;
+  border: 2px solid goldenrod;
+  margin: 15px 350px;
+}
 .footer {
   position: absolute;
   background-image: url(images/logo.png);
