@@ -11,7 +11,7 @@ const hotBtn = document.getElementById('hot')
 const btnResponse = document.querySelector('.btn-response')
 // Form Variables
 const customizeBtn = document.querySelector('.custom-btn')
-const customizeDiv = document.querySelector('.customize-section-div')
+const customizeDiv = document.querySelector('#form')
 
 
 // Button Logic
@@ -64,6 +64,13 @@ hotBtn.addEventListener('click', (e) =>{
 
 // Form Logic
 
-customizeBtn.addEventListener('click', (e) =>{
-    customizeDiv.toggle()
+customizeBtn.addEventListener('click', (e) => {
+   customizeDiv.classList.toggle("hidden")
+
+
+    if (customizeDiv.style.display === 'flex'){
+        customizeDiv.style.display = 'none'
+    }else{
+        customizeDiv.style.display = 'flex'
+    }
 })
