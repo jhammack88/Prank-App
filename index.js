@@ -14,7 +14,7 @@ const hotBtn = document.getElementById('hot')
 const btnResponse = document.querySelector('.btn-response')
 // Form Variables
 const customizeBtn = document.querySelector('.custom-btn')
-const customizeDiv = document.querySelector('#form')
+const customizeDiv = document.querySelector('.form')
 const generateBtn = document.querySelector('.generate-btn')
 
 
@@ -70,7 +70,7 @@ hotBtn.addEventListener('click', (e) =>{
 
 customizeBtn.addEventListener('click', (e) => {
 
-
+    console.log(customizeDiv)
 
     if (customizeDiv.style.display === 'flex'){
         customizeDiv.style.display = 'none'
