@@ -2,17 +2,30 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Indie Flower', cursive;
-  
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/backgroun-image.jpg);
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .body-position {
   display: flex;
   justify-content: center;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .header {
   background-color: beige;
-  height: 150px;
+  height: 125px;
   width: 100%;
   align-items: center;
   display: flex;
@@ -32,9 +45,10 @@ body {
   font-size: 2em;
 }
 
-.question-h4 h4 {
+.custom-btn {
+  display: flex;
+  justify-content: center;
 }
-
 
 .btns {
   display: flex;
@@ -63,7 +77,12 @@ btn-group {
 
 }
 
+.btn-group {
+  display: flex;
+}
+
 .form {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
