@@ -16,6 +16,10 @@ const btnResponse = document.querySelector('.btn-response')
 const customizeBtn = document.querySelector('.custom-btn')
 const customizeDiv = document.querySelector('.form')
 const generateBtn = document.querySelector('.generate-btn')
+const friendBox = document.querySelector('.friends')
+const coworkerBox =  document.querySelector('.coworker')
+const familyBox = document.querySelector('.family')
+const strangerBox = document.querySelector('.stranger')
 
 
 // Button Logic
@@ -79,6 +83,6 @@ customizeBtn.addEventListener('click', (e) => {
     }
 })
 
-// generateBtn.addEventListener('click', (e) =>{
-
-// })
+generateBtn.addEventListener('click', (e) =>{
+    
+})
