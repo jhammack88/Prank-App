@@ -26,10 +26,19 @@ body {
   font-family: 'Trade Winds', cursive;
 }
 
+.question-h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.question-h4 h4 {
+}
+
+
 .btns {
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
 btn-group {
