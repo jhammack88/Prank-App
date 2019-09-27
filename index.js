@@ -4,10 +4,14 @@ const interPranks = ["Toilet Paper:put itching powder on all the toilet rolls.",
 
 const meanPranks = []
 
+// Button Variables
 const mildBtn = document.getElementById('mild')
 const mediumBtn = document.getElementById('medium')
 const hotBtn = document.getElementById('hot')
 const btnResponse = document.querySelector('.btn-response')
+
+
+// Button Logic
 
 mildBtn.addEventListener('click', (e) =>{
     if (document.querySelector('.prankContent')){
@@ -53,3 +57,6 @@ hotBtn.addEventListener('click', (e) =>{
  
 
 })
+
+
+// Form Logic
