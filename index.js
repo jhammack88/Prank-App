@@ -4,6 +4,7 @@ const interPranks = ["Toilet Paper: Put itching powder on all the toilet rolls."
 
 const meanPranks = ["Cement Doors Shut: Get some quick drying cement. Find all the entrance doors that open outward. Cement the bottom of the doors shut.","Boys / Girls (optional). Go into a Gay bar. Put your X’s number on the Bioys / Girls bathroom wall.","Shampoo and Conditioner:  Put hair removal cream in shampoo or conditioner. For better results mix in shampoo with the hair removal cream so the bad smell doesn’t ruin the prank.","Poo Poo: If someone upsets you, get a bit of dog crap, (the fresher the better) and stick it under their car door handle, so it can’t be seen, when they go to open the door they get a handful of sh*t.","Get an ice tray and make a few ice cubes with bugs in it. Ask your friend if he wants a drink and put those ice cubes in the drink.","The Garbage Can Prank This is one of the great pranks to pull on your neighbors. Take a garbage can and fill it with water. Much better if it is filled with muddy water. Now, place the can leaning on the door of your targeted house. Knock and run to hide yourself. Now, watch the fun as your neighbor opens the door and gets his house flooded with dirty water. A piece of advice, don't get caught while doing it.","Take some laxatives and put in the coffee machine of your office. Wait and watch the frenzy it creates.","If they use Google Chrome, install the extension “nCage It”. It changes EVERY image (including google logo, thumbnails, etc.) into randomly generated pics/gifs of Nicolas Cage. The best part? There is an option to hide the extension from the task bar. They would actually have to go into their internet options and find it under the “extensions” tab just to turn it off. ","Freeze mashed potatoes. Scoop frozen mashed onto cones. Serve the kids vanilla ice cream cones for dessert.","Got some cement laying around? Chuck it in their washing machine."]
 
+const coworkerPranks = []
 // Button Variables
 const mildBtn = document.getElementById('mild')
 const mediumBtn = document.getElementById('medium')
@@ -12,6 +13,7 @@ const btnResponse = document.querySelector('.btn-response')
 // Form Variables
 const customizeBtn = document.querySelector('.custom-btn')
 const customizeDiv = document.querySelector('#form')
+const generateBtn = document.querySelector('.generate-btn')
 
 
 // Button Logic
@@ -65,7 +67,7 @@ hotBtn.addEventListener('click', (e) =>{
 // Form Logic
 
 customizeBtn.addEventListener('click', (e) => {
-   customizeDiv.classList.toggle("hidden")
+
 
 
     if (customizeDiv.style.display === 'flex'){
@@ -74,3 +76,7 @@ customizeBtn.addEventListener('click', (e) => {
         customizeDiv.style.display = 'flex'
     }
 })
+
+// generateBtn.addEventListener('click', (e) =>{
+
+// })
