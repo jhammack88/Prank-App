@@ -51,8 +51,20 @@ body {
 
 #customize-btn {
   margin-top: 25px;
-  width: 125px;
+  width: 100px;
   height: 30px;
+  width: 175px;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0px 12px;
+  border-radius: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .btns {
@@ -137,8 +149,15 @@ body {
   display: flex;
 }
 
-.form {
+.parent {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -153,7 +172,6 @@ body {
   justify-content: center;
 }
 
-.prankContent {
-  display: flex;
-  justify-content: center;
+.btn-response .prankContent {
+  margin-top: 20px;
 }
