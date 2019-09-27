@@ -53,6 +53,7 @@ h4 {
   display: flex;
   justify-content: center;
   font-size: 2em;
+  text-align: center;
 }
 
 #customize-btn {
@@ -186,11 +187,16 @@ p {
   display: flex;
   color: #fffdf8;
   font-size: 22px;
+  font-weight: 900;
 }
 
 .center-all-content {
   display: flex;
   justify-content: center;
+}
+
+h1 {
+  color: #fffdf8;
 }
 
 .btn-response .prankContent {
