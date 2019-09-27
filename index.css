@@ -151,7 +151,6 @@ body {
 .center-all-content {
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
 .prankContent {
