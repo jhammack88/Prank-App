@@ -1,13 +1,60 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+.body-position {
+  display: flex;
+  justify-content: center;
 }
 
 .header {
-  background-color: #9a9a9a;
+  background-color: beige;
   height: 150px;
   width: 100%;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 5px solid lightslategray;
+}
+
+.title {
+  font-size: 24px;
+  font-family: 'Trade Winds', cursive;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+btn-group {
+  display: flex;
+  /* justify-content: center; */
+}
+
+#mild {
+
+}
+
+.btn-response {
+  height: 100%;
+  width: 50%;
+
+}
+
+.btn-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form {
   display: flex;
   justify-content: center;
 }
