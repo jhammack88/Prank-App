@@ -51,20 +51,17 @@ body {
 
 #customize-btn {
   margin-top: 25px;
-  width: 100px;
-  height: 30px;
-  width: 175px;
-  text-decoration: none;
-  font-size: 15px;
+  font-size: 24px;
   margin: 0px 12px;
-  border-radius: 45%;
+  border-radius: 10%;
   display: flex;
   justify-content: center;
+  background-color: orange;
 }
 
 .parent {
   margin-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 15px;
 }
 
 .btns {
@@ -174,4 +171,5 @@ body {
 
 .btn-response .prankContent {
   margin-top: 20px;
+  justify-content: center;
 }
