@@ -22,23 +22,26 @@
   <div class="question-h4">
     <h4>Feelin' Dangerous?</h4>
   </div>
-  <div class="btns">
-    <button id="mild" class="btn-group">Mild</button>
-    <button id="medium" class="btn-group">Medium</button>
-    <button id="hot" class="btn-group">Hot</button>
-  <div class="btn-response"></div>
-    <!-- this is the relationship checkbox -->
-    <div class="form">
-      <form action="//www.html.am/html-codes/forms/html-form-tag-action.cfm" target="result" method="get">
-        <p>Please customize your prank by relationship:</p>
-        <input type="checkbox" name="relationship" value="family"> Family
-        <input type="checkbox" name="relationship" value="friend"> Friend 
-        <input type="checkbox" name="relationship" value="coworker"> Co-worker 
-        <input type="checkbox" name="relationship" value="stranger"> Stranger 
-        <p><input type="submit" value="Generate Prank"></p>
-      </form>
+    <div class="btns">
+      <button id="mild" class="btn-group">Mild</button>
+      <button id="medium" class="btn-group">Medium</button>
+      <button id="hot" class="btn-group">Hot</button>
     </div>
-  </div>
+    <div class="btn-response"></div>
+    <button id="customize-btn" class="custom-btn">Prank Customizer</button>
+
+      <!-- this is the relationship checkbox -->
+      <div class="form">
+        <form action="//www.html.am/html-codes/forms/html-form-tag-action.cfm" target="result" method="get">
+          <p>Please customize your prank by relationship:</p>
+          <input type="checkbox" name="relationship" value="family"> Family
+          <input type="checkbox" name="relationship" value="friend"> Friend 
+          <input type="checkbox" name="relationship" value="coworker"> Co-worker 
+          <input type="checkbox" name="relationship" value="stranger"> Stranger 
+          <p><input type="submit" value="Generate Prank"></p>
+        </form>
+      </div>
+    </div>
   
 </body>
 <script src='index.js'></script>
