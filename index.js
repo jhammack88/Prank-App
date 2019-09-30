@@ -119,6 +119,7 @@ generateBtn.addEventListener('click', (e) =>{
         btnResponse2.appendChild(newDiv)
     }else{
         newDiv.innerHTML = 'No checkbox Checked! Check a box and try again.'
+        btnResponse2.appendChild(newDiv)
     }
 
 })

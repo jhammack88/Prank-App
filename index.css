@@ -45,7 +45,7 @@ h4 {
 }
 
 .title {
-  font-size: 24px;
+  font-size: 80px;
   font-family: 'Trade Winds', cursive;
 }
 
@@ -54,6 +54,12 @@ h4 {
   justify-content: center;
   font-size: 2em;
   text-align: center;
+  background-color: black;
+  opacity: .6;
+  margin: 20px 400px;
+  border-radius: 15%;
+  width: 800px;
+  margin-left: 870px;
 }
 
 #customize-btn {
@@ -77,9 +83,7 @@ h4 {
   border: 2px solid black;
 }
 
-p {
-  text-decoration: underline;
-}
+
 
 .parent {
   margin-top: 45px;
@@ -179,14 +183,36 @@ p {
   display: none;
   justify-content: center;
   align-items: center;
+  align-content: left;
   flex-direction: column;
+  
 }
 
 .options {
   display: flex;
+  justify-content: left;
+  text-align: left;
   color: #fffdf8;
   font-size: 22px;
   font-weight: 900;
+  width: 200px;
+  background-color: black;
+  opacity: .8;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 10%;
+
+}
+
+.options2 {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  color: #fffdf8;
+  font-size: 22px;
+  font-weight: 900;
+  width: 600px;
 }
 
 .center-all-content {
@@ -194,8 +220,16 @@ p {
   justify-content: center;
 }
 
-h1 {
-  color: #fffdf8;
+.h1-intro {
+    font-family: 'Notable', sans-serif;
+    color: #fffdf8;
+    font-size: 60px;
+}
+
+.h1-question {
+    font-family: 'Notable', sans-serif;
+    color: #fffdf8;
+    font-size: 40px;
 }
 
 .btn-response .prankContent {
@@ -229,4 +263,10 @@ h1 {
   position: absolute;
   background-image: url(images/logo.png);
   height: 150px;
+}
+
+.intro-text {
+    background-color: black;
+    opacity: .7;
+    border-radius: 10%;
 }
